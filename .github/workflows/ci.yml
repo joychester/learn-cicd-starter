@@ -20,9 +20,8 @@ jobs:
 
       - name: Unit Test
         run: go test -cover ./...
-  
-  tests:
-    name: style
+  style:
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
